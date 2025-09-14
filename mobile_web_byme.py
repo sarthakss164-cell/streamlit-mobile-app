@@ -26,4 +26,5 @@ if st.button("calculate"):
    st.markdown("### 🧾 Item List:")
    for phone, cost in zip(mobile, price):
 
-        st.write(f"- {mobile}: ₹{price}")
+        st.write(f"- {phone}: ₹{cost}")
+
